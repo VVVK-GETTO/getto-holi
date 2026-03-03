@@ -441,19 +441,6 @@ export default function App() {
         </div>
       </div>
 
-      <div className="flex items-center justify-center my-6">
-        <div className="h-px bg-gray-300 flex-1"></div>
-        <span className="px-4 text-gray-400 text-xs sm:text-sm font-medium">OR</span>
-        <div className="h-px bg-gray-300 flex-1"></div>
-      </div>
-
-      <button 
-        onClick={openCamera}
-        className="w-full py-3 sm:py-4 rounded-2xl bg-white border-2 border-[#25bcb4] text-[#25bcb4] font-semibold text-base sm:text-lg flex items-center justify-center space-x-2 hover:bg-[#25bcb4] hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl active:scale-[0.98]"
-      >
-        <Camera className="w-5 h-5" />
-        <span>Take a Photo Now</span>
-      </button>
     </motion.div>
   );
 
@@ -573,7 +560,7 @@ export default function App() {
           </div>
 
           <div className="mt-6 sm:mt-8 space-y-3">
-            <a 
+            {/* <a 
               href="https://www.gettoindia.com" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -584,7 +571,7 @@ export default function App() {
                 <span>Rescue My Fit in 60 Mins!</span>
               </div>
               <span>shop now</span>
-            </a>
+            </a> */}
             <button 
               onClick={resetFlow}
               className="w-full py-3 rounded-xl bg-transparent text-gray-500 font-medium text-sm sm:text-base hover:text-gray-800 transition-colors"
